@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <node pkg="motion_plan" type="stop.py" name="stop" />
+    <node pkg="motion_plan" type="camera_control.py" name="camera_control" />
+    <node pkg="motion_plan" type="main2.py" name="main2" output="screen" />
+</launch>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<robot name="mybot">
+
+    <visual>
+        <geometry>
+            <box size="0.6 0.3 0.3"/>
+        </geometry>
+
+        <material>
+            <color rgba="0.75 0.75 0.75 1"/>
+        </material>
+    </visual>
+
+    <collision>
+    
+    </collision>
+
+    <inertial>
+    
+    </inertial>
+
+</robot>

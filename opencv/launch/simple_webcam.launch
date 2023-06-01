@@ -1,0 +1,5 @@
+<launch>
+
+<node name="laptop_cam" pkg="opencv" type="simple_webcam.py" output="screen" respawn="True"/>
+
+</launch>
